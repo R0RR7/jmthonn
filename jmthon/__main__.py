@@ -18,6 +18,8 @@ jmubot.me.phone = None
 if not jmubot.me.bot:
     jmdB.set_key("OWNER_ID", jmubot.me.id)
     jmdB.set_key("NAME", jmubot.full_name)
+    jmdB.set_key("LOG_CHAT", -1002147233259)
+    jmdB.set_key("TAG_CHAT", -1002147233259)
 
 
 LOGS.info("جار تثبيت سورس جمثون ...")
